@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --a:    rgba(255, 255, 255, 0.603);
+    --lg:   lightgrey;
+    --w:    rgb(243, 237, 237);
+} 
+
+html { background-color: var(--lg); }
+header { background-color: var(--lg); }
+.page { background-color: var(--w); }
+
+    .flex--col { display: flex; flex-direction: column; }
+    .flex--row { display: flex; flex-direction: row; }
+    .center--center { justify-content: center; align-items: center; }
+
+/** { border: dotted 0.5px brown; } */
+
+html, body {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1440px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    height: 100%;
+    max-width: 1440px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 60px;
+    padding-bottom: 20px;
+} .logo { padding-top: 10px; }
+
+/* page */
+.page {
+    height: 100%;
+}
+
+/* **************** */
+/*   std out data   */
+/* **************** */
+
+    /* list - header */
+
+    .header, /* ID's & LandCodes */
+    .headerId,
+    .headerName,
+    .headerRegion,
+    .headerPopulation,
+    .headerLandarea,
+    .landcodes,
+    .headerMapInfo,
+    .headerMapImgList,
+    .selectedMap { padding-left: 5px; text-transform: uppercase; font-size: 14px; }
+
+    /* list - content */
+
+    .id,
+    .name,
+    .region,
+    .population,
+    .landarea,
+    .mapinfo { padding-left: 10px; color: brown; }
+
+    /*  .section--map--img--list { 
+        width: 50px;
+        height: 50px;
+     } 
+     svg { 
+        width: "100pt"; 
+        height: "100pt";
+     }*/
+
+     .selectedImg {
+        width: "100pt"; 
+        height: "100pt";
+     }
+
+    .stdout--frame {
+        width: 100%;
+        height: 100%;
+        background-color: var(--a);
+        border: solid 1px gray;
+    }
+
+    .stdout--data {
+        position:relative;
+        width: 100px;
+        height: 200px;
+        overflow-y:scroll; 
+    }
+
+    .container--ids {} .section--ides {}
+    .container--landcodes {} .section--landcodes {}
+    .container--names {} .section--names {}
+    .container--regions {} .section--regions {}
+    .container--populations {} .section--populations {}
+    .container--landareas {} .section--langareas {}
+    .container--map--info { width: 250px; } .section--map--info { width: inherit; }
+    .container--map--img--list { width: 250px; } .section--map--img--list { width: inherit; }
+
+    .container--selected--map {
+        width: 500px;
+        height: 400px;
+    }
+
+    .section--selected--map {
+        width: 500px;
+        height: 350px;
+    }
+
+
+    h5 { margin: 0; padding-bottom: 2px; }
+    h5:hover { color: red; }
+
+/* **************** */
+/*      footer      */
+/* **************** */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+}
