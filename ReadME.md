@@ -1,4 +1,5 @@
-### Vanilla JS & PHP - BioSquares
+## BioSquares
+### Vanilla JS / fetch API / PHP / LocalHost 
 
 <table>
   <tr>
@@ -8,7 +9,7 @@
 
 ### Data table *csv
 ```
-../doc/lsitofitems.csv
+../doc/listofitems.csv
 ```
 
 ### PHP config / db / t_name
@@ -17,8 +18,8 @@
 ```
 
 ### Requires
- Localhost  
- MySql
+ - Localhost  
+ - MySql
  
 ### Sources
  Original map*.svg: https://github.com/djaiss/mapsicon  
