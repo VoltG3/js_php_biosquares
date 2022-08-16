@@ -20,6 +20,7 @@
 ### Requires
  - Localhost  
  - MySql
+ - phpMyAdmin
  
 ### Sources
  Original map*.svg: https://github.com/djaiss/mapsicon  
